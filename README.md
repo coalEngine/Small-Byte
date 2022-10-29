@@ -1,3 +1,3 @@
-# smallbyte
+# Small Byte
 
 Fun-simple platformer 
