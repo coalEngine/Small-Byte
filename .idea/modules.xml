@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/smallbyte.iml" filepath="$PROJECT_DIR$/smallbyte.iml" />
+      <module fileurl="file://$PROJECT_DIR$/djo.iml" filepath="$PROJECT_DIR$/djo.iml" />
     </modules>
   </component>
 </project>
