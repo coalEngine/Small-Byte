@@ -2,7 +2,9 @@ package Main;
 
 public class World {
     private Screen screen;
+    private Panel panel;
     public World(){
-        screen = new Screen();
+        panel = new Panel();
+        screen = new Screen(panel);
     }
 }

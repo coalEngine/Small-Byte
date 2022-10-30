@@ -3,9 +3,12 @@ package Main;
 import javax.swing.JFrame;
 
 public class Screen {
-    public Screen(){
-        JFrame jFrame = new JFrame();
-        jFrame.setSize(400, 400);
+    private JFrame jFrame;
+    public Screen(Panel p){
+        jFrame = new JFrame();
+        jFrame.setSize(400, 350);
+        jFrame.setDefaultCloseOperation(jFrame.EXIT_ON_CLOSE);
+        jFrame.add(p);
         jFrame.setVisible(true);
     }
 }
