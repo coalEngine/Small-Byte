@@ -1,3 +1,3 @@
-# Small Byte
+## Small Byte
 
-Fun-simple platformer 
+Fun-simple platformer/Metroidvania
