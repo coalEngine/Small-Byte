@@ -9,12 +9,12 @@ import java.awt.event.KeyListener;
 
     Difference Between extends and implements
   - You can only extend a class, You can't implement one
-  - you can only implement a interface, you can't add onto one
+  - you can only implement an interface, you can't add onto one
  */
 
 
 public class keyInputs implements KeyListener {
-// This code will listen for the difference key inputs that happen
+// This code will listen for the different key inputs that will happen
     private Panel panel;
     // Constructor
     public keyInputs(Panel panel){

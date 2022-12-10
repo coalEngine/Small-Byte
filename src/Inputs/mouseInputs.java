@@ -13,6 +13,7 @@ public class mouseInputs implements MouseListener, MouseMotionListener {
             this.panel = panel;
         }
 
+        // tracks every possible mouse movement/action
     @Override
     public void mouseClicked(MouseEvent e) {
         System.out.println("Click!");
@@ -45,6 +46,6 @@ public class mouseInputs implements MouseListener, MouseMotionListener {
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        panel.setObject(e.getX(), e.getY());
+      //  panel.setObject(e.getX(), e.getY());
     }
 }
